@@ -1,0 +1,89 @@
+:root{
+	--primaryColor: rgb(255, 220, 180);
+	--borderColor: rgb(160, 140, 120);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--primaryColor);
+}
+
+.drop-shadow {
+	border-bottom: 4px solid var(--borderColor);
+	border-right: 4px solid var(--borderColor);
+}
+
+.topBar {
+	Width: 100%;
+	Height: 5%;
+	background: rgb(225, 200, 180);
+	margin: 0 auto;
+	
+	border-bottom: 4px solid var(--borderColor);
+	border-right: 4px solid var(--borderColor);
+}
+
+.navButton {
+	text-decoration: none;
+	
+	padding: 0px 10px;
+}
+.navButton:first-child {
+	border-left: 2px solid var(--borderColor);
+}
+.navButton:last-child {
+	border-right: 2px solid var(--borderColor);
+}
+.navButton + .navButton {
+	border-left: 2px solid var(--borderColor);
+	padding-left: 10px;
+}
+
+.divBox {
+	background: rgb(225, 200, 180);
+	
+	border-bottom: 4px solid var(--borderColor);
+	border-right: 4px solid var(--borderColor);
+	
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.image-break {
+	width: 100%;
+	overflow: hidden;
+}
+.image-break img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-position: 0% 80%;
+	display: block;
+	
+	margin: 40px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

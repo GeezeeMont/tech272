@@ -1,0 +1,30 @@
+<!doctype html> tells the code that you want to use a certain document type of HTML. Like a version control
+<html>
+<head>
+<title> My First Page </title>
+<p> This is my first webpage </p>
+<body>
+
+Inline Styles (fonts, types, sizes)
+- Font family
+- Font size
+- Color
+
+Example:
+	<p style="font-family: Arial; font-size: 18px; color: blue;"> Welcome to web development </p>
+
+<ul> and <li> - used to create unordered lists, typically displayed with bullet points
+<ul> Unordered list
+<li> Ordered list
+Example:
+	<ul>
+		<li> First place </li>
+		<li>Second place</li>
+		<li>Third place</li>
+		<li>Fourth place</li>
+		<li>Fifth place</li>
+	</ul>
+
+Nested loops:
+<li> Test
+</li>

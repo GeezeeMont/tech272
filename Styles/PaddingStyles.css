@@ -1,0 +1,21 @@
+.card {
+	background: rgb(200, 200, 200);
+	width: 300px;
+	margin: 0 auto;
+	
+	border: 2px solid black;
+	border-radius: 20%;
+	border-width: 2px;	
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+button {
+	background: rgb(125, 0, 0);
+	color: rgb(255, 255, 255);
+	margin: 0 40%;
+	
+}
