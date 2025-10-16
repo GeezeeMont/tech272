@@ -1,6 +1,7 @@
 :root{
 	--primaryColor: rgb(255, 220, 180);
 	--borderColor: rgb(160, 140, 120);
+	--secondaryColor: rgb(220, 180, 160);
 }
 
 html {
@@ -31,6 +32,8 @@ body {
 	
 	padding: 0px 10px;
 }
+.navButton:hover {
+}
 .navButton:first-child {
 	border-left: 2px solid var(--borderColor);
 }
@@ -47,6 +50,11 @@ body {
 	
 	border-bottom: 4px solid var(--borderColor);
 	border-right: 4px solid var(--borderColor);
+	
+	margin-top: 10px;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
 	
 	padding-right: 20px;
 	padding-left: 20px;
@@ -66,10 +74,36 @@ body {
 	margin: 40px auto;
 }
 
+.cropped-img {
+	overflow: hidden;
+}
 
+.HWRImg {
+	width: 20%;
+	height: 5%;
+	
+	margin: 0 auto;
+}
 
+.HWHImg {
+	width: 15%;
+	height: 10%;
+	margin-left: auto;
+}
+.HWHList {
+	display: flex;
+	margin-left: 20px;
+	padding: 10px 10px;
+}
 
-
+@media (max-width: 768px) {
+	.divBox {
+		background: rgb(255, 255, 255);
+	}
+	.HWHList {
+		flex-direction: column;
+	}
+}
 
 
 
